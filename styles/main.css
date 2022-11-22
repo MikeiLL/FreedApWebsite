@@ -2,6 +2,26 @@
   box-sizing: border-box;
 }
 
+
+/* Global */
+img[src$=".svg"] {
+  max-width: 100%;
+}
+
+p img {
+  margin: 0 1em;
+}
+
+.alignleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
 body {
   margin: 0;
 }
@@ -28,6 +48,18 @@ main {
 
 body.hero main {
   padding: 0;
+  margin: 0;
+}
+
+body.hero main #hero {
+  color: white;
+}
+
+body.hero main h3 {
+  font-size: 2.5em;
+  margin: auto;
+  padding: 0.5em;
+  text-align: center;
 }
 
 main {
@@ -82,7 +114,36 @@ footer {
 
 
 .frontpage {
-  background: #999999 url("../images/prairie-rain-storm.jpg") no-repeat center center / cover;
+  background: #999999 url("../images/prairie-rain-storm.jpg") no-repeat center bottom / cover;
+}
+
+/* Main */
+main {
+  margin: 0.5em auto;
+  min-height: 500px;
+}
+
+.standard main,
+.full-width main p,
+.full-width main ul,
+.full-width main .narrow,
+.full-width main h1,
+.full-width main h2,
+.full-width main h3,
+.full-width main h4 {
+  max-width: 55rem;
+  margin: 1.4em auto;
+}
+
+.full-width main h3 {
+  margin-top: 1.4em;
+  margin-bottom: -0.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main ul {
+  margin-top: 1.5em;
 }
 
 
