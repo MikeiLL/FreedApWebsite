@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
+  <link rel="stylesheet" href="styles/main.css">
+
+  <title>ḞreedAp</title>
+  <meta name="description" content="
+    ">
+  <!-- <link rel="canonical" href="https://freedap.com/"> Possibly reinstate once launched. -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://freedap.com/">
+  <meta property="og:site_name" content="FreedAp">
+  <meta property="article:publisher" content="https://www.facebook.com/freedap/">
+  <meta property="article:modified_time" content="2020-11-01T13:03:26+00:00">
+
+
+  <link rel="icon" href="images/logo-220x220.png" sizes="32x32">
+  <link rel="icon" href="images/logo-220x220.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="images/logo-220x220.png">
+  <meta name="msapplication-TileImage" content="images/logo-512x512.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="{{ page.category | default: 'standard' }}">
+
+  <header>
+    <div class="brand">
+      <a class="site-logo" href="." aria-label="FreedAp | Coming Soon">
+
+      </a>
+      <h2>ḞreedAp</h2>
+      <h3>Coming Soon</h3>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a class="menuItem" href="about">About</a>
+        </li>
+        <li>
+          <a class="menuItem" href="contact">Contact</a>
+        </li>
+        </li>
+      </ul>
+    </nav>
+
+    <button class="hamburger">
+      <!-- material icons https://material.io/resources/icons/ -->
+      <i class="menuIcon material-icons" style="color:white">menu</i>
+      <i class="closeIcon material-icons" style="color:white">close</i>
+    </button>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>
+      © <a href="https://freedap.com">FreedAp</a> {{ 'now' | date: "%Y" }} <a href="mailto:info@freedap.com"
+        title="https://freedap.com">info@freedap.com</a>
+    </p>
+  </footer>
+  <script>
+    const menu = document.querySelector("nav .menu");
+    const menuItems = document.querySelectorAll(".menuItem");
+    const hamburger = document.querySelector(".hamburger");
+    const closeIcon = document.querySelector(".closeIcon");
+    const menuIcon = document.querySelector(".menuIcon");
+
+    function toggleMenu() {
+      if (menu.classList.contains("showMenu")) {
+        menu.classList.remove("showMenu");
+        closeIcon.style.display = "none";
+        menuIcon.style.display = "block";
+      } else {
+        menu.classList.add("showMenu");
+        closeIcon.style.display = "block";
+        menuIcon.style.display = "none";
+      }
+    }
+
+    hamburger.addEventListener("click", toggleMenu);
+
+    menuItems.forEach(
+      function (menuItem) {
+        menuItem.addEventListener("click", toggleMenu);
+      }
+    )
+  </script>
+</body>
+
+</html>
