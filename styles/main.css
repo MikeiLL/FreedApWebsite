@@ -18,10 +18,73 @@ h5 {
   --brand-primary: #5CB570;
 }
 
+/* Header */
+
+header,
+footer,
+main {
+  padding: 0.5em;
+}
+
+body.hero main {
+  padding: 0;
+}
+
+main {
+  padding-top: 0;
+}
+
 header,
 footer {
   background-color: var(--brand-primary);
 }
+
+header {
+  padding: 1rem;
+}
+
+header h2,
+header h3 {
+  color: white;
+  margin: 0 0 0.5rem 0;
+  width: auto;
+  text-align: left;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  min-height: 60px;
+  width: 100%;
+}
+
+/* Hero */
+#hero {
+  margin: 0;
+  height: 500px;
+  padding: 0.2em;
+  position: relative;
+}
+
+
+#hero blockquote {
+  font-size: 1.5em;
+  padding: 0.3em;
+  color: var(--white);
+  margin: auto;
+  position: absolute;
+  bottom: 12%;
+  left: 60%;
+  max-width: 700px;
+}
+
+
+.frontpage {
+  background: #999999 url("../images/prairie-rain-storm.jpg") no-repeat center center / cover;
+}
+
 
 /* Nav */
 
