@@ -25,7 +25,7 @@ function previous_section_is(current_section) {
 let lastY = 0;
 let lastScrollTime = + new Date;
 
-window.addEventListener('scroll', function (e) {
+function autoscroller() {
   if (lastScrollTime + 250 < + new Date) { // four per second max
 
     lastScrollTime = + new Date;
@@ -53,4 +53,5 @@ window.addEventListener('scroll', function (e) {
 
   };
 
-});
+}
+// window.addEventListener('scroll', autoscroller);
