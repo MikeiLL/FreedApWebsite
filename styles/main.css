@@ -186,6 +186,18 @@ main ul {
   text-decoration: none;
 }
 
+nav .menu {
+  background-color: var(--brand-primary);
+}
+
+nav .menu a {
+  color: white;
+}
+
+nav .menu a:hover {
+  color: white;
+}
+
 .menuItem:hover {
   text-decoration: underline;
 }
