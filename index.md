@@ -34,7 +34,7 @@ FreedAp is a mobile platform that allows users to donate re-usable house-hold it
 December 19th Event and (mainly) forever
 </section>
 
-<section id=wheremarkdown=1 class=gray>
+<section id=where markdown=1 class=gray>
 
 ## Where
 {: #hdg-where}
