@@ -69,10 +69,12 @@ svg .logo-fill {
   fill: var(--white);
 }
 
+a.site-logo svg .logo-fill {
+  transition: all 0.3s;
+}
 
 a.site-logo:hover svg .logo-fill {
   fill: var(--brand-secondary);
-  transition: all 0.3s;
 }
 
 svg .brand-secondary {
@@ -83,6 +85,24 @@ svg .brand-secondary-dark {
   fill: var(--brand-secondary-dark);
 }
 
+a {
+  color: var(--brand-secondary);
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+/* Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  font-family: "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /* Header */
 
@@ -99,6 +119,14 @@ header {
   width: 100%;
   z-index: 2;
   height: 120px;
+}
+
+/* Hero */
+
+#hero img {
+  display: block;
+  margin: 0 auto;
+  max-height: 60vh;
 }
 
 body.hero main {

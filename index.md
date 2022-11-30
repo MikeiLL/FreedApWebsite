@@ -4,9 +4,9 @@ category: hero full-width
 
 <section id=hero markdown=1 class=frontpage>
 
-## The problem we want to solve:
+# Find New Homes for Old Belongings
 
-### Free couch, pick-up on roadside.
+![MobileAppPostingDemo](images/MobileAppPostingDemo.png)
 </section>
 
 <section id="who" markdown=1 class=gray>
