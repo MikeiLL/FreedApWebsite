@@ -45,7 +45,11 @@ section {
 
 /* Colors */
 :root {
-  --brand-primary: #5CB570;
+  --brand-primary: #61B670;
+  --brand-secondary: #154475;
+  --brand-secondary-dark: #0A2134;
+  --black: #010101;
+  --white: #F7F9FB;
 }
 
 .gray {
@@ -60,6 +64,25 @@ section {
   background-color: #333;
   color: white;
 }
+
+svg .logo-fill {
+  fill: var(--white);
+}
+
+
+a.site-logo:hover svg .logo-fill {
+  fill: var(--brand-secondary);
+  transition: all 0.3s;
+}
+
+svg .brand-secondary {
+  fill: var(--brand-secondary);
+}
+
+svg .brand-secondary-dark {
+  fill: var(--brand-secondary-dark);
+}
+
 
 /* Header */
 
@@ -104,7 +127,7 @@ footer {
 }
 
 header {
-  padding: 1rem;
+  padding: 0.4rem 1rem;
 }
 
 header h2,
