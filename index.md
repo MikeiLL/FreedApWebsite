@@ -6,7 +6,10 @@ category: hero full-width
 
 # Find New Homes for Old Belongings
 
-![MobileAppPostingDemo](images/MobileAppPostingDemo.png)
+<a href="https://apps.apple.com/au/app/freedap/id1632143768"><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="280"></a>
+
+
+<a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img src="images/Get_it_on_google_play.svg" width="280"></a>
 </section>
 
 <section id="who" markdown=1 class=gray>
