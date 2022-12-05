@@ -183,11 +183,27 @@ body.hero main #hero {
   color: white;
 }
 
-body.hero main h3 {
-  font-size: 2.5em;
+body.hero main h1 {
+  font-size: 2.7rem;
   margin: auto;
-  padding: 0.5em;
-  text-align: center;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+body.hero main h2 {
+  font-size: 2rem;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: 400;
+}
+
+body.hero main h3 {
+  font-size: 1.3rem;
+  margin: 1em auto;
+  padding: 0.5rem;
+  text-align: left;
+  font-weight: 400;
 }
 
 main {

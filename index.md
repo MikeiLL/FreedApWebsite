@@ -7,8 +7,8 @@ category: hero full-width
     <div class="col">
       <div>
         <h1>Find New Homes for Old Belongings</h1>
-        <h2>Lorem ipsum and so on the elevator pitch paragraph will go here. This is probably a pretty good length for it.</h2>
-        <p>Download free for iOS or Android.</p>
+        <h2>Do you have re-usable items in your home which you do not want to sell, trash or keep? Make someone happy with a few clicks on your phone.</h2>
+        <h3>Download free for iOS or Android.</h3>
         <div class=row>
           <div class=col>
             <a href="https://apps.apple.com/au/app/freedap/id1632143768"><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="280"></a>
