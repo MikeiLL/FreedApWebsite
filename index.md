@@ -3,13 +3,26 @@ category: hero full-width
 ---
 
 <section id=hero markdown=1 class=frontpage>
-
-# Find New Homes for Old Belongings
-
-<a href="https://apps.apple.com/au/app/freedap/id1632143768"><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="280"></a>
-
-
-<a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img src="images/Get_it_on_google_play.svg" width="280"></a>
+  <div class=row style="height: 100%; margin-top:">
+    <div class="col">
+      <div>
+        <h1>Find New Homes for Old Belongings</h1>
+        <h2>Lorem ipsum and so on the elevator pitch paragraph will go here. This is probably a pretty good length for it.</h2>
+        <p>Download free for iOS or Android.</p>
+        <div class=row>
+          <div class=col>
+            <a href="https://apps.apple.com/au/app/freedap/id1632143768"><img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="280"></a>
+          </div>
+          <div class=col>
+            <a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img src="images/Get_it_on_google_play.svg" width="280"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=col>
+    <img src="images/ShowcaseShots.png" class=showcase>
+    </div>
+  </div>
 </section>
 
 <section id="who" markdown=1 class=gray>

@@ -104,16 +104,38 @@ body {
   line-height: 1.5;
 }
 
-/* Grid */
+/* Responsive Grid */
+
+section {
+  border: #999 1px solid 0;
+  margin: 1em auto;
+}
+
 .row {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 -1em;
 }
 
 .col {
-  flex: 1;
-  padding: 0 1em;
+  flex-grow: 1;
+}
+
+
+.col-33 {
+  min-width: 400px;
+  max-width: 33%;
+}
+
+.card {
+  margin: 1em;
+  border-radius: 10px;
+  padding-bottom: 1em;
+}
+
+.card .body {
+  width: 100%;
+  padding: 1em;
 }
 
 /* Header */
@@ -135,10 +157,21 @@ header {
 
 /* Hero */
 
+#hero>.row>.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #hero img {
   display: block;
   margin: 0 auto;
+}
+
+#hero img.showcase {
   max-height: 60vh;
+  max-width: 90%;
+  width: auto;
 }
 
 body.hero main {
@@ -216,14 +249,14 @@ main {
   min-height: 500px;
 }
 
-.standard main,
-.full-width main p,
-.full-width main ul,
-.full-width main .narrow,
-.full-width main h1,
-.full-width main h2,
-.full-width main h3,
-.full-width main h4 {
+main p,
+main ul,
+main .narrow,
+main h1,
+main h2,
+main h3,
+main h4 {
+  width: 70%;
   max-width: 55rem;
   margin: 1.4em auto;
 }
@@ -301,4 +334,11 @@ i.closeIcon {
 
 nav {
   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  #hero>.row>.col {
+    justify-content: center;
+    max-width: 50%;
+  }
 }
