@@ -25,7 +25,8 @@ category: hero full-width
   </div>
 </section>
 
-<section markdown=1>
+<section markdown=1 class="section-two">
+
 # Be part of our sharing endeavor
 
 - 💸 No cost to post or request
@@ -34,6 +35,9 @@ category: hero full-width
 - 📱 Supports iOS and Android devices
 - 💻 Desktop to come
 - 🇬🇧 Available in English only
+
+## Together we can reduce waste to landfill. Read on!
+
 </section>
 
 <section id="who" markdown=1 class=gray>

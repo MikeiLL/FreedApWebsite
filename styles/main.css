@@ -39,6 +39,7 @@ section {
   scroll-behavior: auto;
 }
 
+
 /* Colors */
 :root {
   --brand-primary: #61B670;
@@ -127,13 +128,20 @@ h5 {
   font-size: 0.4em;
 }
 
+p,
+ul,
 h1,
 h2,
 h3,
 h4,
 h5 {
-  width: 90%;
+  width: 100%;
   max-width: 55rem;
+}
+
+ul {
+  font-size: 1.1em;
+  padding-left: 0.6em;
 }
 
 
@@ -222,6 +230,15 @@ body.hero main {
 
 body.hero main #hero {
   color: white;
+}
+
+/* Section Two */
+.section-two {
+  background-color: var(--white);
+  background-image: url(../images/bicycle-pexels-pixabay-276517.jpg);
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 main {
@@ -365,17 +382,14 @@ Extra extra large	xxl	≥1400px
 
   h1 {
     font-size: 1.5em;
-    margin: 0.7em auto;
   }
 
   h2 {
     font-size: 1.1em;
-    margin: 0.7em auto;
   }
 
   h3 {
     font-size: 0.9em;
-    margin: 0.7em auto;
   }
 
   h4 {
@@ -386,6 +400,8 @@ Extra extra large	xxl	≥1400px
     font-size: 0.4em;
   }
 
+  ul,
+  p,
   h1,
   h2,
   h3,
@@ -393,6 +409,12 @@ Extra extra large	xxl	≥1400px
   h5 {
     width: 90%;
     max-width: 55rem;
+    margin: 0.7em auto;
+  }
+
+  ul {
+    font-size: 1.3em;
+    padding-left: 1.2em;
   }
 
   #hero>.row .col:first-of-type img {
@@ -433,6 +455,10 @@ Extra extra large	xxl	≥1400px
   #hero>.row .col:first-of-type img {
     width: 220px;
     margin: 0.6em auto;
+  }
+
+  ul {
+    padding-left: 1.5em;
   }
 }
 
@@ -483,6 +509,7 @@ Extra extra large	xxl	≥1400px
 
   main ul {
     margin-top: 1.5em;
+    padding-left: 1.5em;
   }
 
   #hero {
