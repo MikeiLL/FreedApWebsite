@@ -3,7 +3,7 @@ category: hero full-width
 ---
 
 <section id=hero markdown=1 class=frontpage>
-  <div class=row style="height: 100%; margin-top:">
+  <div class=row style="height: 100%;">
     <div class="col">
       <div>
         <h1>Find New Homes for Old Belongings</h1>

@@ -26,16 +26,12 @@ body {
   margin: 0;
 }
 
-h1,
-h2,
-h4,
-h5 {
-  text-align: center;
-}
 
 section {
-  height: 100vh;
   margin: 0;
+}
+
+#hero {
   padding-top: 120px;
 }
 
@@ -104,11 +100,45 @@ body {
   line-height: 1.5;
 }
 
+h1 {
+  font-size: 1.4em;
+  margin: 0.7em auto;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 0.5em auto;
+}
+
+h3 {
+  font-size: 0.8em;
+  margin: 0.3em auto;
+}
+
+h4 {
+  font-size: 0.6em;
+}
+
+h5 {
+  font-size: 0.4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  width: 90%;
+  max-width: 55rem;
+}
+
+
+
 /* Responsive Grid */
 
 section {
-  border: #999 1px solid 0;
-  margin: 1em auto;
+  padding: 1em;
+  min-height: 500px;
 }
 
 .row {
@@ -163,6 +193,13 @@ header {
   justify-content: center;
 }
 
+
+#hero>.row .col:first-of-type img {
+  width: 200px;
+  margin: 0.6em auto;
+}
+
+
 #hero img {
   display: block;
   margin: 0 auto;
@@ -181,29 +218,6 @@ body.hero main {
 
 body.hero main #hero {
   color: white;
-}
-
-body.hero main h1 {
-  font-size: 2.7rem;
-  margin: auto;
-  padding: 0.5rem;
-  text-align: left;
-}
-
-body.hero main h2 {
-  font-size: 2rem;
-  margin: auto;
-  padding: 0.5rem;
-  text-align: left;
-  font-weight: 400;
-}
-
-body.hero main h3 {
-  font-size: 1.3rem;
-  margin: 1em auto;
-  padding: 0.5rem;
-  text-align: left;
-  font-weight: 400;
 }
 
 main {
@@ -256,36 +270,13 @@ footer {
 
 
 .frontpage {
-  background: #999999 url("../images/prairie-rain-storm.jpg") no-repeat center bottom / cover;
+  background: var(--brand-secondary);
 }
 
 /* Main */
 main {
   margin: 0.5em auto;
   min-height: 500px;
-}
-
-main p,
-main ul,
-main .narrow,
-main h1,
-main h2,
-main h3,
-main h4 {
-  width: 70%;
-  max-width: 55rem;
-  margin: 1.4em auto;
-}
-
-.full-width main h3 {
-  margin-top: 1.4em;
-  margin-bottom: -0.4em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main ul {
-  margin-top: 1.5em;
 }
 
 
@@ -352,9 +343,146 @@ nav {
   width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+/* Media Queries */
+/*
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+
+@media only screen and (min-width: 768px) {
   #hero>.row>.col {
     justify-content: center;
     max-width: 50%;
   }
+
+  h1 {
+    font-size: 1.5em;
+    margin: 0.7em auto;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    margin: 0.7em auto;
+  }
+
+  h3 {
+    font-size: 0.9em;
+    margin: 0.7em auto;
+  }
+
+  h4 {
+    font-size: 0.6em;
+  }
+
+  h5 {
+    font-size: 0.4em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    width: 90%;
+    max-width: 55rem;
+  }
+
+  #hero>.row .col:first-of-type img {
+    width: 170px;
+    margin: 0.6em auto;
+  }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+
+
+  h1 {
+    font-size: 2rem;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 1em auto;
+    padding: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  #hero>.row .col:first-of-type img {
+    width: 220px;
+    margin: 0.6em auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  section {
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin: auto;
+    padding: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 1em auto;
+    padding: 0.5rem;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  #hero>.row .col:first-of-type img {
+    width: 280px;
+    margin: 0.6em auto;
+  }
+
+  p,
+  ul,
+  h1,
+  h2,
+  h3,
+  h4 {
+    width: 70%;
+    max-width: 55rem;
+    margin: 1.4em auto;
+  }
+
+  main ul {
+    margin-top: 1.5em;
+  }
+
+  #hero {
+    padding-top: calc(120px + 2em);
+  }
+
 }
