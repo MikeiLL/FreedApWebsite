@@ -28,11 +28,12 @@ category: hero full-width
 <section markdown=1>
 # Be part of our sharing endeavor
 
-- No cost to post or request
-- Available in all US States
-- List any potentially desirable item (or service)
-- Supports iOS and Android devices (desktop coming soon)
-- Available in English only
+- 💸 No cost to post or request
+- 🇺🇸 Available in all US States
+- 🪑 List any potentially desirable item (or service)
+- 📱 Supports iOS and Android devices
+- 💻 Desktop to come
+- 🇬🇧 Available in English only
 </section>
 
 <section id="who" markdown=1 class=gray>
