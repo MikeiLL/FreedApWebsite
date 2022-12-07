@@ -25,6 +25,16 @@ category: hero full-width
   </div>
 </section>
 
+<section markdown=1>
+# Be part of our sharing endeavor
+
+- No cost to post or request
+- Available in all US States
+- List any potentially desirable item (or service)
+- Supports iOS and Android devices (desktop coming soon)
+- Available in English only
+</section>
+
 <section id="who" markdown=1 class=gray>
 
 ## Who
