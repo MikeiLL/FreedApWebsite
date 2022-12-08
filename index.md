@@ -109,7 +109,7 @@ USA -- how do users define geographic detail of posts and searches?
   <span itemprop="name">FreedAp</span>
 </div>
 <div itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Franck Adjisegbe</span>
+  <span itemprop="name">Franck Adjisegbe</span>,
 
   <span itemprop="jobTitle">Founder</span>
   <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
