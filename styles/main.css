@@ -118,6 +118,15 @@ h1 {
 h2 {
   font-size: 1.1em;
   margin: 0.5em auto;
+  text-align: center;
+}
+
+#hero h2 {
+  text-align: left;
+}
+
+.section-two h2 {
+  text-align: left;
 }
 
 h3 {
@@ -264,7 +273,6 @@ header h3 {
   color: white;
   margin: 0 0 0.5rem 0;
   width: auto;
-  text-align: left;
 }
 
 /* Footer */
@@ -446,7 +454,6 @@ Extra extra large	xxl	≥1400px
     font-size: 1.6rem;
     margin: auto;
     padding: 0.5rem;
-    text-align: left;
     font-weight: 400;
   }
 
@@ -485,7 +492,6 @@ Extra extra large	xxl	≥1400px
     font-size: 2rem;
     margin: auto;
     padding: 0.5rem;
-    text-align: left;
     font-weight: 400;
   }
 
