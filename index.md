@@ -95,7 +95,29 @@ Steps to list item on FreedAp and/or find an item you require/desire.
 <section id=contact markdown=1 class=gray>
 ## Contact
 {: #hdg-contact}
+<div itemscope itemtype="https://schema.org/Organization">
+  <span itemprop="name">FreedAp</span>
+</div>
+<div itemscope itemtype="https://schema.org/Person">
+  <span itemprop="name">Franck Adjisegbe</span>
 
-coming soon
+  <span itemprop="jobTitle">Founder</span>
+  <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+    <span itemprop="streetAddress">
+      1559 Elm Street
+    </span>
+    <span itemprop="addressLocality">Stratford</span>,
+    <span itemprop="addressRegion">CT</span>
+    <span itemprop="postalCode">06615</span>
+  </address>
+  <span itemprop="telephone">203-612-0447</span>
+  <a href="mailto:adjisegbe@freedap.com" itemprop="email">
+    adjisegbe@freedap.com</a>
+    <a href="mailto:help@freedap.com" itemprop="email">
+    help@freedap.com</a>
+
+</div>
+
+
 
 </section>
