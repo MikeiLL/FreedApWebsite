@@ -49,6 +49,11 @@ section {
   --white: #F7F9FB;
 }
 
+.bg-secondary {
+  background-color: var(--brand-secondary);
+  color: var(--white);
+}
+
 .gray {
   background-color: #999;
 }
@@ -269,6 +274,7 @@ footer {
   justify-content: center;
   min-height: 60px;
   width: 100%;
+  text-align: center;
 }
 
 /* Hero */
@@ -505,6 +511,10 @@ Extra extra large	xxl	≥1400px
     width: 70%;
     max-width: 55rem;
     margin: 1.4em auto;
+  }
+
+  .center {
+    text-align: center;
   }
 
   main ul {

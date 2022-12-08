@@ -40,10 +40,27 @@ category: hero full-width
 
 </section>
 
+<section id=how markdown=1 class=alice>
+## How
+{: #hdg-how}
+
+Steps to list item on FreedAp and/or find an item you require/desire.
+
+</section>
+
 <section id="who" markdown=1 class=gray>
 
 ## Who
 {: #hdg-who}
+
+<span itemscope itemtype="https://schema.org/Organization">
+  <span itemprop="name">FreedAp</span>
+</span>
+<span itemscope itemtype="https://schema.org/Person">
+  <span itemprop="name">Franck Adjisegbe</span>
+  <img src="images/janedoe.jpg" itemprop="image" alt="Photo of Franck Adjisegbe"/>
+
+  <span itemprop="jobTitle">Founder</span>
 
 FreedAp is a social impact platform that aims to, first and foremost, reduce waste by allowing users to give re- usable items to people who needs them, and at the same time, creating space in their living areas including garages and basements. FreedAp is useful on college campuses across the US for graduating students who would like to donate items to incoming students.
 
@@ -74,13 +91,6 @@ USA -- how do users define geographic detail of posts and searches?
 
 </section>
 
-<section id=how markdown=1 class=alice>
-## How
-{: #hdg-how}
-
-Steps to list item on FreedAp and/or find an item you require/desire.
-
-</section>
 
 <section id=why markdown=1 class=dark>
 ## Why
@@ -92,9 +102,9 @@ Steps to list item on FreedAp and/or find an item you require/desire.
 
 </section>
 
-<section id=contact markdown=1 class=gray>
-## Contact
-{: #hdg-contact}
+<section id=contact markdown=1 class="bg-secondary">
+## We're easy to reach
+{: #hdg-contact .center}
 <div itemscope itemtype="https://schema.org/Organization">
   <span itemprop="name">FreedAp</span>
 </div>
