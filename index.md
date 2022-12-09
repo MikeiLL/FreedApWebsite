@@ -2,7 +2,8 @@
 category: hero full-width
 ---
 
-<section id=hero markdown=1 class=frontpage>
+<section id=hero markdown=1 class="frontpage">
+  <a name="home" class="section"></a>
   <div class=row style="height: 100%;">
     <div class="col">
       <div>
@@ -26,7 +27,7 @@ category: hero full-width
 </section>
 
 <section markdown=1 class="section-two">
-
+<a name="what" class="section"></a>
 # Be part of our sharing endeavor
 
 - 💸 No cost to post or request
@@ -40,9 +41,9 @@ category: hero full-width
 
 </section>
 
-<section id=how markdown=1 class=alice>
+<section markdown=1 class="bg-alice how">
+<a name="how" class="section"></a>
 ## Participation is Easy
-{: #hdg-how}
 
   <div class=row>
     <div class=col>
@@ -80,14 +81,13 @@ category: hero full-width
 
 </section>
 
-<section id="who" markdown=1 class=gray>
-
+<section markdown=1 class="bg-gray who">
+  <a name="who" class="section"></a>
 ## In case you were wondering
-{: #hdg-who}
 
   <p itemscope itemtype="https://schema.org/Organization">
-  <img src="images/franck-casual.jpg" itemprop="image" alt="Photo of Franck Adjisegbe" style="float:right; max-width:40%; height: auto;"/>
-    <span itemprop="name">ḞreedAp</span> was conceived by Franck Adjisegbe, a native of Benin, attended University of Bridgeport in 1994; spent time as Culture & Lifestyle reporter for Washington Times in Nigeria; lead American high school students in building six schools and a water system in Benin and was working in Kenya until the Covid pandemic, which sent him back to Bridgeport, where he started a de-cluttering service.
+  <img src="images/franck-casual.jpg" itemprop="image" alt="Photo of Franck Adjisegbe" style="float:right; max-width:40%; height: auto;border: 1px solid #154475; border-radius:0.3em;"/>
+    <span itemprop="name">ḞreedAp</span> was conceived by Franck Adjisegbe, a native of Benin who attended University of Bridgeport in 1994; spent time as Culture & Lifestyle reporter for Washington Times in Nigeria; lead American high school students in building six schools and a water system in Benin and was working in Kenya until the Covid pandemic, which sent him back to Bridgeport, where he started a de-cluttering service.
   </p>
 
   <p>With a heightened awareness of curbside furniture (and it's susceptibility to weather), he decided to leverage the internet and began building a mobile app where users can post and seek pre-owned belongings. His old friend, Nadhim "Nazz" Frangul became excited about the idea and with the help of a local university student and another old coding friend or two, FreedAp is now available from both the <a href="https://apps.apple.com/au/app/freedap/id1632143768">App Store</a> and <a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>Google Play</a>.
@@ -95,7 +95,9 @@ category: hero full-width
   <br style="clear:both">
 </section>
 
-<section id=contact markdown=1 class="bg-secondary">
+<section markdown=1 class="bg-secondary contact">
+
+<a name="contact" class="section"></a>
 ## We're easy to reach
 {: #hdg-contact .center}
   <div class="contact-info">

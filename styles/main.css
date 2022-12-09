@@ -39,6 +39,14 @@ section {
   scroll-behavior: auto;
 }
 
+a.section {
+  position: relative;
+  top: -150px;
+  display: block;
+  height: 0;
+  width: 0;
+}
+
 
 /* Colors */
 :root {
@@ -54,16 +62,16 @@ section {
   color: var(--white);
 }
 
-.gray {
+.bg-gray {
   background-color: #aaa;
 }
 
-.alice {
+.bg-alice {
   background-color: aliceblue;
 }
 
-.dark {
-  background-color: #333;
+.bg-dark {
+  background-color: var(--brand-secondary-dark);
   color: white;
 }
 
@@ -172,10 +180,6 @@ section {
   flex-wrap: wrap;
 }
 
-.col {
-  flex-grow: 1;
-}
-
 
 .col-33 {
   min-width: 400px;
@@ -278,7 +282,7 @@ body.hero main #hero {
 
 /* Contact Section */
 
-#contact {
+.contact {
   background-color: var(--brand-secondary);
   color: var(--white);
   font-size: 1.2em;
@@ -305,7 +309,7 @@ body.hero main #hero {
 
 /* How Section */
 
-#how .row .col {
+.how .row .col {
   padding: 1.4em;
   margin: 0.4em;
   border-radius: 10px;
@@ -314,17 +318,17 @@ body.hero main #hero {
   width: 100%;
 }
 
-#how h3 {
+.how h3 {
   font-size: 1.5em;
   margin: 0;
   text-align: left;
 }
 
-#how {
+.how {
   font-size: 1.2em;
 }
 
-#how a:hover {
+.how a:hover {
   transition: all 0.3s;
   color: var(--brand-primary);
 }
@@ -442,7 +446,7 @@ Extra extra large	xxl	≥1400px
 */
 
 @media only screen and (min-width: 576px) {
-  #contact {
+  .contact {
     font-size: 1.6em;
   }
 }
@@ -499,19 +503,19 @@ Extra extra large	xxl	≥1400px
     max-width: 70%;
   }
 
-  #how .row .col {
+  .how .row .col {
     padding: 1.4em;
     margin: 0.6em;
     width: 40%;
   }
 
-  #how h3 {
+  .how h3 {
     font-size: 1.7em;
     margin: 0;
     text-align: left;
   }
 
-  #how {
+  .how {
     font-size: 1.2em;
   }
 
@@ -554,6 +558,10 @@ Extra extra large	xxl	≥1400px
     max-width: 60%;
     padding: 2em;
     border: 1px solid var(--white);
+  }
+
+  .who p {
+    font-size: 1.3em;
   }
 }
 
@@ -622,19 +630,23 @@ Extra extra large	xxl	≥1400px
     max-width: 40%;
   }
 
-  #how .row .col {
+  .how .row .col {
     padding: 1.7em;
-    margin: 1.4em;
-    width: 30%;
+    margin: 1.4em 0.6em;
+    width: calc(33% - 1.2em);
   }
 
-  #how h3 {
+  .how h3 {
     font-size: 2em;
     margin: 0;
   }
 
-  #how {
+  .how {
     font-size: 1.6em;
+  }
+
+  .who p {
+    font-size: 1.5em;
   }
 
 }
