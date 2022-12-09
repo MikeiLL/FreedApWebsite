@@ -98,7 +98,6 @@ a:hover {
 
 /* Typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 body {
   font-family: "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
@@ -211,7 +210,29 @@ header {
   height: 120px;
 }
 
+
 /* Hero */
+#hero {
+  margin: 0;
+  position: relative;
+}
+
+
+#hero blockquote {
+  font-size: 1.5em;
+  padding: 0.3em;
+  color: var(--white);
+  margin: auto;
+  position: absolute;
+  bottom: 12%;
+  left: 60%;
+  max-width: 700px;
+}
+
+
+.frontpage {
+  background: var(--brand-secondary);
+}
 
 #hero>.row>.col {
   display: flex;
@@ -255,6 +276,60 @@ body.hero main #hero {
   background-repeat: no-repeat;
 }
 
+/* Contact Section */
+
+#contact {
+  background-color: var(--brand-secondary);
+  color: var(--white);
+  font-size: 1.2em;
+}
+
+#hdg-contact {
+  text-decoration: underline;
+  margin-bottom: 3em;
+}
+
+.contact-info {
+  margin: auto;
+  max-width: 90%;
+}
+
+.contact-info a:hover {
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.contact-info a {
+  color: var(--white);
+}
+
+/* How Section */
+
+#how .row .col {
+  padding: 1.4em;
+  margin: 0.4em;
+  border-radius: 10px;
+  border: 1px solid var(--brand-secondary);
+  font-family: "Amatic SC", cursive;
+  width: 100%;
+}
+
+#how h3 {
+  font-size: 1.5em;
+  margin: 0;
+  text-align: left;
+}
+
+#how {
+  font-size: 1.2em;
+}
+
+#how a:hover {
+  transition: all 0.3s;
+  color: var(--brand-primary);
+}
+
+
 main {
   padding-top: 0;
 }
@@ -285,28 +360,6 @@ footer {
   text-align: center;
 }
 
-/* Hero */
-#hero {
-  margin: 0;
-  position: relative;
-}
-
-
-#hero blockquote {
-  font-size: 1.5em;
-  padding: 0.3em;
-  color: var(--white);
-  margin: auto;
-  position: absolute;
-  bottom: 12%;
-  left: 60%;
-  max-width: 700px;
-}
-
-
-.frontpage {
-  background: var(--brand-secondary);
-}
 
 /* Main */
 main {
@@ -388,6 +441,12 @@ Extra large	xl	≥1200px
 Extra extra large	xxl	≥1400px
 */
 
+@media only screen and (min-width: 576px) {
+  #contact {
+    font-size: 1.6em;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   #hero>.row>.col {
     justify-content: center;
@@ -436,12 +495,29 @@ Extra extra large	xxl	≥1400px
     margin: 0.6em auto;
   }
 
+  .contact-info {
+    max-width: 70%;
+  }
+
+  #how .row .col {
+    padding: 1.4em;
+    margin: 0.6em;
+    width: 40%;
+  }
+
+  #how h3 {
+    font-size: 1.7em;
+    margin: 0;
+    text-align: left;
+  }
+
+  #how {
+    font-size: 1.2em;
+  }
 
 }
 
 @media only screen and (min-width: 992px) {
-
-
 
   h1 {
     font-size: 2rem;
@@ -472,6 +548,12 @@ Extra extra large	xxl	≥1400px
 
   ul {
     padding-left: 1.5em;
+  }
+
+  .contact-info {
+    max-width: 60%;
+    padding: 2em;
+    border: 1px solid var(--white);
   }
 }
 
@@ -534,6 +616,25 @@ Extra extra large	xxl	≥1400px
 
   li {
     font-size: 1.8em;
+  }
+
+  .contact-info {
+    max-width: 40%;
+  }
+
+  #how .row .col {
+    padding: 1.7em;
+    margin: 1.4em;
+    width: 30%;
+  }
+
+  #how h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  #how {
+    font-size: 1.6em;
   }
 
 }

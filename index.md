@@ -41,10 +41,42 @@ category: hero full-width
 </section>
 
 <section id=how markdown=1 class=alice>
-## How
+## Participation is Easy
 {: #hdg-how}
 
-Steps to list item on FreedAp and/or find an item you require/desire.
+  <div class=row>
+    <div class=col>
+      <h3>Step 1</h3>
+      <hr>
+      Get the free app from the <a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>Play Store</a> or <a href="https://apps.apple.com/au/app/freedap/id1632143768">App Store</a>.
+    </div>
+    <div class=col>
+      <h3>Step 2</h3>
+      <hr>
+      Make an account with your username and email.
+    </div>
+    <div class=col>
+      <h3>Step 3</h3>
+      <hr>
+      Post a pic and brief description of an item.
+    </div>
+    <div class=col>
+      <h3>Step 4</h3>
+      <hr>
+      The app notifies you when someone wants the item.
+    </div>
+    <div class=col>
+      <h3>Step 5</h3>
+      <hr>
+      In the app, mark the item as "locked".
+    </div>
+    <div class=col>
+      <h3>Step 6</h3>
+      <hr>
+      Message with requester how to get it.
+    </div>
+  </div>
+
 
 </section>
 
@@ -54,7 +86,7 @@ Steps to list item on FreedAp and/or find an item you require/desire.
 {: #hdg-who}
 
 <span itemscope itemtype="https://schema.org/Organization">
-  <span itemprop="name">FreedAp</span>
+  <span itemprop="name">ḞreedAp</span>
 </span>
 <span itemscope itemtype="https://schema.org/Person">
   <span itemprop="name">Franck Adjisegbe</span>
@@ -105,28 +137,26 @@ USA -- how do users define geographic detail of posts and searches?
 <section id=contact markdown=1 class="bg-secondary">
 ## We're easy to reach
 {: #hdg-contact .center}
-<div itemscope itemtype="https://schema.org/Organization">
-  <span itemprop="name">FreedAp</span>
-</div>
-<div itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Franck Adjisegbe</span>,
-
-  <span itemprop="jobTitle">Founder</span>
-  <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-    <span itemprop="streetAddress">
-      1559 Elm Street
-    </span>
-    <span itemprop="addressLocality">Stratford</span>,
-    <span itemprop="addressRegion">CT</span>
-    <span itemprop="postalCode">06615</span>
-  </address>
-  <span itemprop="telephone">203-612-0447</span>
-  <a href="mailto:adjisegbe@freedap.com" itemprop="email">
-    adjisegbe@freedap.com</a>
-    <a href="mailto:help@freedap.com" itemprop="email">
-    help@freedap.com</a>
-
-</div>
+  <div class="contact-info">
+    <div itemscope itemtype="https://schema.org/Organization">
+      <span itemprop="name">ḞreedAp</span>
+    </div>
+    <div itemscope itemtype="https://schema.org/Person">
+      <span itemprop="name" style="font-size: smaller;">Franck Adjisegbe</span>,
+      <span itemprop="jobTitle" style="font-size: smaller;">Founder</span>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+        <span itemprop="streetAddress">
+          1559 Elm Street
+        </span><br>
+        <span itemprop="addressLocality">Stratford</span>,
+        <span itemprop="addressRegion">CT</span>
+        <span itemprop="postalCode">06615</span>
+      </address>
+      ☏ <span itemprop="telephone">203-612-0447</span><br>
+      <a href="mailto:adjisegbe@freedap.com" itemprop="email">adjisegbe@freedap.com</a><br>
+      <a href="mailto:help@freedap.com" itemprop="email">help@freedap.com</a>
+    </div>
+  </div>
 
 
 
