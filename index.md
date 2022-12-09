@@ -82,56 +82,17 @@ category: hero full-width
 
 <section id="who" markdown=1 class=gray>
 
-## Who
+## In case you were wondering
 {: #hdg-who}
 
-<span itemscope itemtype="https://schema.org/Organization">
-  <span itemprop="name">ḞreedAp</span>
-</span>
-<span itemscope itemtype="https://schema.org/Person">
-  <span itemprop="name">Franck Adjisegbe</span>
-  <img src="images/janedoe.jpg" itemprop="image" alt="Photo of Franck Adjisegbe"/>
+  <p itemscope itemtype="https://schema.org/Organization">
+  <img src="images/franck-casual.jpg" itemprop="image" alt="Photo of Franck Adjisegbe" style="float:right; max-width:40%; height: auto;"/>
+    <span itemprop="name">ḞreedAp</span> was conceived by Franck Adjisegbe, a native of Benin, attended University of Bridgeport in 1994; spent time as Culture & Lifestyle reporter for Washington Times in Nigeria; lead American high school students in building six schools and a water system in Benin and was working in Kenya until the Covid pandemic, which sent him back to Bridgeport, where he started a de-cluttering service.
+  </p>
 
-  <span itemprop="jobTitle">Founder</span>
-
-FreedAp is a social impact platform that aims to, first and foremost, reduce waste by allowing users to give re- usable items to people who needs them, and at the same time, creating space in their living areas including garages and basements. FreedAp is useful on college campuses across the US for graduating students who would like to donate items to incoming students.
-
-We aim to make FreedAp the largest and friendliest re-cycling platform in the world. The team at FreedAp is passionate about building the first of its kind community of millions in the US and abroad who loves finding new homes for extra belongings
-
-</section>
-
-<section id=what markdown=1 class=dark>
-## What
-{: #hdg-what}
-
-FreedAp is a mobile platform that allows users to donate re-usable house-hold items, including even services, for free. Simply put, if you have loads of items in your garage, basement or in your closet which you do not want to sell, trash or keep, put it on FreedAp - you will make somebody very happy. Our mission is to become the world’s largest online free donation platform to assist users to declutter both their living space and their neighborhood curbside.
-</section>
-
-<section id=when markdown=1 class=alice>
-## When
-{: #hdg-when}
-
-December 19th Event and (mainly) forever
-</section>
-
-<section id=where markdown=1 class=gray>
-
-## Where
-{: #hdg-where}
-
-USA -- how do users define geographic detail of posts and searches?
-
-</section>
-
-
-<section id=why markdown=1 class=dark>
-## Why
-{: #hdg-why}
-
-- Keep town curbsides free of items
-- Reduce the weight of re-usable household Items sent to local dump yard by 950,000 lbs/year
-- Free Up Personal Living space (garage, basement, closet)
-
+  <p>With a heightened awareness of curbside furniture (and it's susceptibility to weather), he decided to leverage the internet and began building a mobile app where users can post and seek pre-owned belongings. His old friend, Nadhim "Nazz" Frangul became excited about the idea and with the help of a local university student and another old coding friend or two, FreedAp is now available from both the <a href="https://apps.apple.com/au/app/freedap/id1632143768">App Store</a> and <a href='https://play.google.com/store/apps/details?id=com.freedap.freedap&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>Google Play</a>.
+  </p>
+  <br style="clear:both">
 </section>
 
 <section id=contact markdown=1 class="bg-secondary">
