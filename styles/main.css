@@ -118,12 +118,12 @@ ul {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.6em;
   margin: 0.7em auto;
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.4em;
   margin: 0.5em auto;
   text-align: center;
 }
@@ -132,13 +132,10 @@ h2 {
   text-align: left;
 }
 
-.section-two h2 {
-  text-align: left;
-}
-
 h3 {
-  font-size: 0.8em;
+  font-size: 1em;
   margin: 0.3em auto;
+  text-align: center;
 }
 
 h4 {
@@ -271,6 +268,10 @@ body.hero main #hero {
   color: white;
 }
 
+#hero h3 {
+  text-align: left;
+}
+
 /* Section Two */
 .section-two {
   background-color: var(--white);
@@ -289,7 +290,6 @@ body.hero main #hero {
 }
 
 #hdg-contact {
-  text-decoration: underline;
   margin-bottom: 3em;
 }
 
@@ -362,6 +362,7 @@ footer {
   min-height: 60px;
   width: 100%;
   text-align: center;
+  font-size: 1.2em;
 }
 
 
@@ -458,23 +459,23 @@ Extra extra large	xxl	≥1400px
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 1.4em;
   }
 
   h3 {
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
 
   h4 {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
 
   h5 {
-    font-size: 0.4em;
+    font-size: 0.6em;
   }
 
   ul,
@@ -527,7 +528,6 @@ Extra extra large	xxl	≥1400px
     font-size: 2rem;
     margin: auto;
     padding: 0.5rem;
-    text-align: left;
   }
 
   h2 {
@@ -538,10 +538,9 @@ Extra extra large	xxl	≥1400px
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 1em auto;
     padding: 0.5rem;
-    text-align: left;
     font-weight: 400;
   }
 
@@ -551,7 +550,7 @@ Extra extra large	xxl	≥1400px
   }
 
   ul {
-    padding-left: 1.5em;
+    padding-left: 2em;
   }
 
   .contact-info {
@@ -561,6 +560,10 @@ Extra extra large	xxl	≥1400px
   }
 
   .who p {
+    font-size: 1.3em;
+  }
+
+  .how .row .col {
     font-size: 1.3em;
   }
 }
@@ -575,21 +578,27 @@ Extra extra large	xxl	≥1400px
     font-size: 2.7rem;
     margin: auto;
     padding: 0.5rem;
-    text-align: left;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: auto;
     padding: 0.5rem;
     font-weight: 400;
   }
 
+  #hero h2 {
+    font-size: 2.2rem;
+  }
+
+  #hero h3 {
+    font-size: 1.6rem;
+  }
+
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
     margin: 1em auto;
     padding: 0.5rem;
-    text-align: left;
     font-weight: 400;
   }
 

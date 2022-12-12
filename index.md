@@ -28,7 +28,8 @@ category: hero full-width
 
 <section markdown=1 class="section-two">
 <a name="what" class="section"></a>
-# Be part of our sharing endeavor
+
+## A Sharing Endeavor
 
 - 💸 No cost to post or request
 - 🇺🇸 Available in all US States
@@ -37,12 +38,15 @@ category: hero full-width
 - 💻 Desktop to come
 - 🇬🇧 Available in English only
 
-## Together we can reduce waste to landfill. Read on!
+### Together we can reduce waste to landfill.
+
+<img src="images/down-arrow.svg" style="width: 100px; margin: auto; display: block;">
 
 </section>
 
 <section markdown=1 class="bg-alice how">
 <a name="how" class="section"></a>
+
 ## Participation is Easy
 
   <div class=row>
@@ -81,9 +85,10 @@ category: hero full-width
 
 </section>
 
-<section markdown=1 class="bg-gray who">
+<section markdown=1 class="who">
   <a name="who" class="section"></a>
-## In case you were wondering
+
+## In Case You Were Wondering
 
   <p itemscope itemtype="https://schema.org/Organization">
   <img src="images/franck-casual.jpg" itemprop="image" alt="Photo of Franck Adjisegbe" style="float:right; max-width:40%; height: auto;border: 1px solid #154475; border-radius:0.3em;"/>
@@ -96,9 +101,9 @@ category: hero full-width
 </section>
 
 <section markdown=1 class="bg-secondary contact">
-
 <a name="contact" class="section"></a>
-## We're easy to reach
+
+## We're Easy to Reach
 {: #hdg-contact .center}
   <div class="contact-info">
     <div itemscope itemtype="https://schema.org/Organization">
